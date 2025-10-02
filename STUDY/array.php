@@ -17,7 +17,6 @@
 
     // ==========
 
-    <?php
     // ====== dengan key (asosiatif) ======
     $mobil = array("brand"=>"ford", "mode"=>"mustang", "year"=>1964);
     var_dump($mobil);
@@ -62,5 +61,11 @@
     // menghapus awal
     $first = array_shift($mobil);
     var_dump($mobil) . "<br>";
-?>
+
+    // LOOPING array
+    $hewan = ["Kucing", "Anjing", "Kelinci"];
+
+    foreach ($hewan as $h) {
+        echo $h . "<br>";
+    }
 ?>
