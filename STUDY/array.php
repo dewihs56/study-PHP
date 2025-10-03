@@ -18,7 +18,11 @@
     // ==========
 
     // ====== dengan key (asosiatif) ======
-    $mobil = array("brand"=>"ford", "mode"=>"mustang", "year"=>1964);
+    $mobil = array(
+        "brand"=>"ford", 
+        "mode"=>"mustang", 
+        "year"=>1964
+    );
     var_dump($mobil);
     echo "<br>";
     
